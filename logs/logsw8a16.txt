@@ -1,0 +1,293 @@
+2024-05-10 03:25:04,236 - root - INFO - AIMET
+2024-05-10 03:25:04,601 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/resnet50.tv_in1k)
+2024-05-10 03:25:05,121 - timm.models._hub - INFO - [timm/resnet50.tv_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2024-05-10 03:25:08,921 - timm.models._builder - INFO - Loading pretrained weights from Hugging Face hub (timm/resnet50.tv_in1k)
+2024-05-10 03:25:09,252 - timm.models._hub - INFO - [timm/resnet50.tv_in1k] Safe alternative available for 'pytorch_model.bin' (as 'model.safetensors'). Loading weights using safetensors.
+2024-05-10 03:25:12,425 - timm.data.loader - WARNING - Pretrained mean/std different shape than model, using avg value (0.449,).
+2024-05-10 03:25:12,425 - timm.data.loader - WARNING - Pretrained mean/std different shape than model, using avg value (0.226,).
+2024-05-10 03:25:12,425 - timm.data.loader - WARNING - Pretrained mean/std different shape than model, using avg value (0.449,).
+2024-05-10 03:25:12,425 - timm.data.loader - WARNING - Pretrained mean/std different shape than model, using avg value (0.226,).
+Top 1 Accuracy : 89.50%
+Top 5 Accuracy : 97.40%
+
+2024-05-10 03:25:21,893 - Utils - INFO - ...... subset to store [Conv_0, BatchNormalization_1]
+2024-05-10 03:25:21,893 - Utils - INFO - ...... subset to store [Conv_4, BatchNormalization_5]
+2024-05-10 03:25:21,893 - Utils - INFO - ...... subset to store [Conv_7, BatchNormalization_8]
+2024-05-10 03:25:21,893 - Utils - INFO - ...... subset to store [Conv_12, BatchNormalization_13]
+2024-05-10 03:25:21,893 - Utils - INFO - ...... subset to store [Conv_19, BatchNormalization_20]
+2024-05-10 03:25:21,893 - Utils - INFO - ...... subset to store [Conv_22, BatchNormalization_23]
+2024-05-10 03:25:21,893 - Utils - INFO - ...... subset to store [Conv_27, BatchNormalization_28]
+2024-05-10 03:25:21,893 - Utils - INFO - ...... subset to store [Conv_32, BatchNormalization_33]
+2024-05-10 03:25:21,893 - Utils - INFO - ...... subset to store [Conv_35, BatchNormalization_36]
+2024-05-10 03:25:21,893 - Utils - INFO - ...... subset to store [Conv_40, BatchNormalization_41]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_45, BatchNormalization_46]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_48, BatchNormalization_49]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_53, BatchNormalization_54]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_60, BatchNormalization_61]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_63, BatchNormalization_64]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_68, BatchNormalization_69]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_73, BatchNormalization_74]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_76, BatchNormalization_77]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_81, BatchNormalization_82]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_86, BatchNormalization_87]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_89, BatchNormalization_90]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_94, BatchNormalization_95]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_99, BatchNormalization_100]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_102, BatchNormalization_103]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_107, BatchNormalization_108]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_114, BatchNormalization_115]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_117, BatchNormalization_118]
+2024-05-10 03:25:21,894 - Utils - INFO - ...... subset to store [Conv_122, BatchNormalization_123]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_127, BatchNormalization_128]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_130, BatchNormalization_131]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_135, BatchNormalization_136]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_140, BatchNormalization_141]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_143, BatchNormalization_144]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_148, BatchNormalization_149]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_153, BatchNormalization_154]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_156, BatchNormalization_157]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_161, BatchNormalization_162]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_166, BatchNormalization_167]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_169, BatchNormalization_170]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_174, BatchNormalization_175]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_179, BatchNormalization_180]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_182, BatchNormalization_183]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_187, BatchNormalization_188]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_194, BatchNormalization_195]
+2024-05-10 03:25:21,895 - Utils - INFO - ...... subset to store [Conv_197, BatchNormalization_198]
+2024-05-10 03:25:21,896 - Utils - INFO - ...... subset to store [Conv_202, BatchNormalization_203]
+2024-05-10 03:25:21,896 - Utils - INFO - ...... subset to store [Conv_207, BatchNormalization_208]
+2024-05-10 03:25:21,896 - Utils - INFO - ...... subset to store [Conv_210, BatchNormalization_211]
+2024-05-10 03:25:21,896 - Utils - INFO - ...... subset to store [Conv_215, BatchNormalization_216]
+2024-05-10 03:25:21,896 - Utils - INFO - ...... subset to store [Conv_189, BatchNormalization_190]
+2024-05-10 03:25:21,896 - Utils - INFO - ...... subset to store [Conv_109, BatchNormalization_110]
+2024-05-10 03:25:21,896 - Utils - INFO - ...... subset to store [Conv_55, BatchNormalization_56]
+2024-05-10 03:25:21,896 - Utils - INFO - ...... subset to store [Conv_14, BatchNormalization_15]
+2024-05-10 03:25:26,831 - BatchNormFolding - INFO - 0 BatchNorms' weights got converted
+2024-05-10 03:25:28,097 - timm.data.loader - WARNING - Pretrained mean/std different shape than model, using avg value (0.449,).
+2024-05-10 03:25:28,097 - timm.data.loader - WARNING - Pretrained mean/std different shape than model, using avg value (0.226,).
+2024-05-10 03:25:28,414 - Quant - INFO - No config file provided, defaulting to config file at /home/ava/anaconda3/envs/rajrup/lib/python3.8/site-packages/aimet_common/quantsim_config/default_config.json
+2024-05-10 03:25:28,441 - Quant - INFO - Unsupported op type Squeeze
+2024-05-10 03:25:28,441 - Quant - INFO - Unsupported op type Mean
+2024-05-10 03:25:28,449 - Utils - INFO - ...... subset to store [Conv_0, Relu_2]
+2024-05-10 03:25:28,449 - Utils - INFO - ...... subset to store [Conv_4, Relu_6]
+2024-05-10 03:25:28,449 - Utils - INFO - ...... subset to store [Conv_7, Relu_10]
+2024-05-10 03:25:28,449 - Utils - INFO - ...... subset to store [Add_17, Relu_18]
+2024-05-10 03:25:28,449 - Utils - INFO - ...... subset to store [Conv_19, Relu_21]
+2024-05-10 03:25:28,449 - Utils - INFO - ...... subset to store [Conv_22, Relu_25]
+2024-05-10 03:25:28,449 - Utils - INFO - ...... subset to store [Add_30, Relu_31]
+2024-05-10 03:25:28,449 - Utils - INFO - ...... subset to store [Conv_32, Relu_34]
+2024-05-10 03:25:28,449 - Utils - INFO - ...... subset to store [Conv_35, Relu_38]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Add_43, Relu_44]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_45, Relu_47]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_48, Relu_51]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Add_58, Relu_59]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_60, Relu_62]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_63, Relu_66]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Add_71, Relu_72]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_73, Relu_75]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_76, Relu_79]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Add_84, Relu_85]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_86, Relu_88]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_89, Relu_92]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Add_97, Relu_98]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_99, Relu_101]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_102, Relu_105]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Add_112, Relu_113]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_114, Relu_116]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_117, Relu_120]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Add_125, Relu_126]
+2024-05-10 03:25:28,450 - Utils - INFO - ...... subset to store [Conv_127, Relu_129]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_130, Relu_133]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Add_138, Relu_139]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_140, Relu_142]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_143, Relu_146]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Add_151, Relu_152]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_153, Relu_155]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_156, Relu_159]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Add_164, Relu_165]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_166, Relu_168]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_169, Relu_172]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Add_177, Relu_178]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_179, Relu_181]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_182, Relu_185]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Add_192, Relu_193]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_194, Relu_196]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_197, Relu_200]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Add_205, Relu_206]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_207, Relu_209]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Conv_210, Relu_213]
+2024-05-10 03:25:28,451 - Utils - INFO - ...... subset to store [Add_218, Relu_219]
+2024-05-10 03:25:28,452 - Quant - INFO - Selecting DefaultOpInstanceConfigGenerator to compute the specialized config. hw_version:default
+2024-05-10 03:25:34,389 - Utils - INFO - Caching 32 batches from data loader at path location: /tmp/adaround/
+2024-05-10 03:25:34,401 - Quant - INFO - Started Optimizing weight rounding of module: conv1
+2024-05-10 03:25:43,031 - Quant - INFO - Started Optimizing weight rounding of module: layer1.0.conv1
+2024-05-10 03:25:47,175 - Quant - INFO - Started Optimizing weight rounding of module: layer1.0.conv2
+2024-05-10 03:25:52,236 - Quant - INFO - Started Optimizing weight rounding of module: layer1.0.conv3
+2024-05-10 03:25:59,037 - Quant - INFO - Started Optimizing weight rounding of module: layer1.0.downsample.0
+2024-05-10 03:26:05,974 - Quant - INFO - Started Optimizing weight rounding of module: layer1.1.conv1
+2024-05-10 03:26:12,082 - Quant - INFO - Started Optimizing weight rounding of module: layer1.1.conv2
+2024-05-10 03:26:17,415 - Quant - INFO - Started Optimizing weight rounding of module: layer1.1.conv3
+2024-05-10 03:26:24,453 - Quant - INFO - Started Optimizing weight rounding of module: layer1.2.conv1
+2024-05-10 03:26:30,722 - Quant - INFO - Started Optimizing weight rounding of module: layer1.2.conv2
+2024-05-10 03:26:36,236 - Quant - INFO - Started Optimizing weight rounding of module: layer1.2.conv3
+2024-05-10 03:26:43,463 - Quant - INFO - Started Optimizing weight rounding of module: layer2.0.conv1
+2024-05-10 03:26:51,368 - Quant - INFO - Started Optimizing weight rounding of module: layer2.0.conv2
+2024-05-10 03:26:56,938 - Quant - INFO - Started Optimizing weight rounding of module: layer2.0.conv3
+2024-05-10 03:27:02,307 - Quant - INFO - Started Optimizing weight rounding of module: layer2.0.downsample.0
+2024-05-10 03:27:10,401 - Quant - INFO - Started Optimizing weight rounding of module: layer2.1.conv1
+2024-05-10 03:27:15,556 - Quant - INFO - Started Optimizing weight rounding of module: layer2.1.conv2
+2024-05-10 03:27:20,354 - Quant - INFO - Started Optimizing weight rounding of module: layer2.1.conv3
+2024-05-10 03:27:25,834 - Quant - INFO - Started Optimizing weight rounding of module: layer2.2.conv1
+2024-05-10 03:27:30,998 - Quant - INFO - Started Optimizing weight rounding of module: layer2.2.conv2
+2024-05-10 03:27:35,835 - Quant - INFO - Started Optimizing weight rounding of module: layer2.2.conv3
+2024-05-10 03:27:41,467 - Quant - INFO - Started Optimizing weight rounding of module: layer2.3.conv1
+2024-05-10 03:27:46,744 - Quant - INFO - Started Optimizing weight rounding of module: layer2.3.conv2
+2024-05-10 03:27:51,703 - Quant - INFO - Started Optimizing weight rounding of module: layer2.3.conv3
+2024-05-10 03:27:57,459 - Quant - INFO - Started Optimizing weight rounding of module: layer3.0.conv1
+2024-05-10 03:28:03,663 - Quant - INFO - Started Optimizing weight rounding of module: layer3.0.conv2
+2024-05-10 03:28:08,925 - Quant - INFO - Started Optimizing weight rounding of module: layer3.0.conv3
+2024-05-10 03:28:13,997 - Quant - INFO - Started Optimizing weight rounding of module: layer3.0.downsample.0
+2024-05-10 03:28:20,505 - Quant - INFO - Started Optimizing weight rounding of module: layer3.1.conv1
+2024-05-10 03:28:25,494 - Quant - INFO - Started Optimizing weight rounding of module: layer3.1.conv2
+2024-05-10 03:28:30,530 - Quant - INFO - Started Optimizing weight rounding of module: layer3.1.conv3
+2024-05-10 03:28:35,723 - Quant - INFO - Started Optimizing weight rounding of module: layer3.2.conv1
+2024-05-10 03:28:40,832 - Quant - INFO - Started Optimizing weight rounding of module: layer3.2.conv2
+2024-05-10 03:28:46,017 - Quant - INFO - Started Optimizing weight rounding of module: layer3.2.conv3
+2024-05-10 03:28:51,344 - Quant - INFO - Started Optimizing weight rounding of module: layer3.3.conv1
+2024-05-10 03:28:56,528 - Quant - INFO - Started Optimizing weight rounding of module: layer3.3.conv2
+2024-05-10 03:29:01,814 - Quant - INFO - Started Optimizing weight rounding of module: layer3.3.conv3
+2024-05-10 03:29:07,251 - Quant - INFO - Started Optimizing weight rounding of module: layer3.4.conv1
+2024-05-10 03:29:12,569 - Quant - INFO - Started Optimizing weight rounding of module: layer3.4.conv2
+2024-05-10 03:29:17,972 - Quant - INFO - Started Optimizing weight rounding of module: layer3.4.conv3
+2024-05-10 03:29:23,533 - Quant - INFO - Started Optimizing weight rounding of module: layer3.5.conv1
+2024-05-10 03:29:28,988 - Quant - INFO - Started Optimizing weight rounding of module: layer3.5.conv2
+2024-05-10 03:29:34,579 - Quant - INFO - Started Optimizing weight rounding of module: layer3.5.conv3
+2024-05-10 03:29:40,314 - Quant - INFO - Started Optimizing weight rounding of module: layer4.0.conv1
+2024-05-10 03:29:46,521 - Quant - INFO - Started Optimizing weight rounding of module: layer4.0.conv2
+2024-05-10 03:29:53,410 - Quant - INFO - Started Optimizing weight rounding of module: layer4.0.conv3
+2024-05-10 03:29:59,280 - Quant - INFO - Started Optimizing weight rounding of module: layer4.0.downsample.0
+2024-05-10 03:30:06,673 - Quant - INFO - Started Optimizing weight rounding of module: layer4.1.conv1
+2024-05-10 03:30:12,470 - Quant - INFO - Started Optimizing weight rounding of module: layer4.1.conv2
+2024-05-10 03:30:19,253 - Quant - INFO - Started Optimizing weight rounding of module: layer4.1.conv3
+2024-05-10 03:30:25,282 - Quant - INFO - Started Optimizing weight rounding of module: layer4.2.conv1
+2024-05-10 03:30:31,168 - Quant - INFO - Started Optimizing weight rounding of module: layer4.2.conv2
+2024-05-10 03:30:38,069 - Quant - INFO - Started Optimizing weight rounding of module: layer4.2.conv3
+2024-05-10 03:30:44,228 - Quant - INFO - Started Optimizing weight rounding of module: fc
+2024-05-10 03:30:50,254 - Quant - INFO - Deleting model inputs from location: /tmp/adaround/
+2024-05-10 03:30:50,308 - Quant - INFO - Completed Adarounding Model
+2024-05-10 03:30:50,646 - Quant - INFO - No config file provided, defaulting to config file at /home/ava/anaconda3/envs/rajrup/lib/python3.8/site-packages/aimet_common/quantsim_config/default_config.json
+2024-05-10 03:30:50,673 - Quant - INFO - Unsupported op type Squeeze
+2024-05-10 03:30:50,673 - Quant - INFO - Unsupported op type Mean
+2024-05-10 03:30:50,680 - Utils - INFO - ...... subset to store [Conv_0, Relu_2]
+2024-05-10 03:30:50,680 - Utils - INFO - ...... subset to store [Conv_4, Relu_6]
+2024-05-10 03:30:50,680 - Utils - INFO - ...... subset to store [Conv_7, Relu_10]
+2024-05-10 03:30:50,680 - Utils - INFO - ...... subset to store [Add_17, Relu_18]
+2024-05-10 03:30:50,680 - Utils - INFO - ...... subset to store [Conv_19, Relu_21]
+2024-05-10 03:30:50,680 - Utils - INFO - ...... subset to store [Conv_22, Relu_25]
+2024-05-10 03:30:50,680 - Utils - INFO - ...... subset to store [Add_30, Relu_31]
+2024-05-10 03:30:50,680 - Utils - INFO - ...... subset to store [Conv_32, Relu_34]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_35, Relu_38]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Add_43, Relu_44]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_45, Relu_47]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_48, Relu_51]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Add_58, Relu_59]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_60, Relu_62]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_63, Relu_66]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Add_71, Relu_72]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_73, Relu_75]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_76, Relu_79]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Add_84, Relu_85]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_86, Relu_88]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_89, Relu_92]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Add_97, Relu_98]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_99, Relu_101]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_102, Relu_105]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Add_112, Relu_113]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_114, Relu_116]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Conv_117, Relu_120]
+2024-05-10 03:30:50,681 - Utils - INFO - ...... subset to store [Add_125, Relu_126]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_127, Relu_129]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_130, Relu_133]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Add_138, Relu_139]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_140, Relu_142]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_143, Relu_146]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Add_151, Relu_152]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_153, Relu_155]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_156, Relu_159]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Add_164, Relu_165]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_166, Relu_168]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_169, Relu_172]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Add_177, Relu_178]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_179, Relu_181]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_182, Relu_185]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Add_192, Relu_193]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_194, Relu_196]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_197, Relu_200]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Add_205, Relu_206]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_207, Relu_209]
+2024-05-10 03:30:50,682 - Utils - INFO - ...... subset to store [Conv_210, Relu_213]
+2024-05-10 03:30:50,683 - Utils - INFO - ...... subset to store [Add_218, Relu_219]
+2024-05-10 03:30:50,683 - Quant - INFO - Selecting DefaultOpInstanceConfigGenerator to compute the specialized config. hw_version:default
+2024-05-10 03:30:50,691 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,691 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,691 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,691 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,691 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,691 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,692 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,692 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,692 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,692 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,692 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,692 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,693 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,693 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,693 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,693 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,693 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,693 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,694 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,694 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,694 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,694 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,694 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,694 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,695 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,695 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,695 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,695 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,695 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,695 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,696 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,696 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,696 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,696 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,696 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,696 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,697 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,697 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,697 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,697 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,697 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,698 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,698 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,698 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,698 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,698 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,698 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,699 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,699 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,699 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,699 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,699 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,699 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:50,700 - Quant - INFO - Setting quantization encodings for parameter: weight
+2024-05-10 03:30:51,079 - timm.data.loader - WARNING - Pretrained mean/std different shape than model, using avg value (0.449,).
+2024-05-10 03:30:51,079 - timm.data.loader - WARNING - Pretrained mean/std different shape than model, using avg value (0.226,).
+2024-05-10 03:31:31,010 - Utils - INFO - successfully created onnx model with 106/122 node names updated
+2024-05-10 03:31:31,750 - Quant - WARNING - number of input quantizers: 1 available for layer: conv1 doesn't match with number of input tensors: 3
+2024-05-10 03:31:31,764 - Quant - INFO - Layers excluded from quantization: []
+Top 1 Accuracy : 89.50%
+Top 5 Accuracy : 97.20%
+
