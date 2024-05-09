@@ -1,0 +1,15 @@
+{
+    "model":{
+        "model_name": "resnet50",
+        "call_name": "resnet50.tv_in1k",
+        "pretrained": true,
+        "num_classes": 1000,
+        "input_shape": [
+            3,
+            224,
+            224
+          ],
+        "dataset_dir": "/media/ava/DATA2/datasets/50k_imagenet/val/",
+        "artifacts": "/media/ava/DATA2/rajrup/resnet/artifacts/"
+    }
+}
