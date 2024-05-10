@@ -3,9 +3,9 @@
 
 # Table of Contents
 - [Task](#Task)
-- [Model Source](#ModelSource)
-- [Model Description](#ModelDescription)
-- [Dataset Used](#DatasetUsed)
+- [Model Source](#Model-Source)
+- [Model Description](#Model-Description)
+- [Dataset Used](#Dataset-Used)
 - [Results](#Results)
 
 
